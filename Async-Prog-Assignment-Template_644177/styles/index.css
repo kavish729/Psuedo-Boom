@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(85, 85, 105);
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(104, 56, 150);
+    border-radius: 30px;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: rgb(238, 171, 171);
+}
+
+/* slide show */
+
+#slideshow{
+    display: flex;
+    margin: auto;
+  width: 90%;
+  height: 350px;
+}
+
+#slideshow>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+/* Movies list */
+#movies{
+    padding-top: 20px;
+   display: grid;
+   width: 70%;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 400px 400px 400px;
+   margin: auto;
+   gap: 10px;
+
+}
+
+img{
+    width: 100%;
+    height: 60%;
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+}
+
+p{
+    color: white;
+}
+
+.datadiv{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+select{
+    margin-top: 20px;
+   margin-left: 85%;
+   width: 120px;
+   border-radius: 5px;
+   height: 30px;
+}
+
+
+/* there is lot of things to discuss with you we are to */
