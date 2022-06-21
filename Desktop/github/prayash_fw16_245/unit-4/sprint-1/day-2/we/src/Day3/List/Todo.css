@@ -1,0 +1,26 @@
+#container{
+    background-color:#cecece;
+    width: 45%;
+    padding: 40px;
+    margin: auto;
+   }
+   input{
+   height:70px;
+   width:380px;
+   border-radius: 13px;
+   font-size: 35px;
+   color: black;
+   margin-top: 30px;
+   border: solid 2px white;
+   }
+   button{
+       height:75px;
+       width:80px;
+       border-radius: 15px;
+       font-size: 35px;
+       color: black;
+       margin-left: 10px;
+       margin-top: 30px;
+       border: none;
+   
+   }

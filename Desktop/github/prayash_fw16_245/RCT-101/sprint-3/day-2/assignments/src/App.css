@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.flex-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  border: 2px solid black;
+  width: 400px;
+  margin: auto;
+}
+.flex-div > img{
+  width: 50px;
+  height: 80px;
+}

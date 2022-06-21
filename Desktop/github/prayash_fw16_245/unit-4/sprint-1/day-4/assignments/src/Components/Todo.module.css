@@ -1,0 +1,13 @@
+.login{
+   margin-left: 20px;
+   height: 43px;
+   font-size: 32px;
+   width: 120px;
+   border-radius: 10px;
+   background-color: rgb(112, 117, 97);
+   color: rgb(217, 214, 214);
+}
+.login:hover{
+    background-color: rgb(23, 84, 141);
+    color: rgb(228, 220, 220);
+}

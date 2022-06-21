@@ -1,0 +1,112 @@
+.main-header {
+  
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  border: 2px solid black;
+  height: 650px;
+  background-color:rgb(11, 53, 80);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
+.headingPart{
+  font-size: 45px;
+  font-weight: 700;
+  background: rgb(18, 186, 188);
+  color: #c2f105;
+  padding: 20px;
+  border-radius: 6px;
+
+}
+body{
+  background-color: rgb(68, 68, 73);
+}
+.Add-input{
+  width: 250px;
+  font-size: 20px;
+  padding: 14px;
+  border: none;
+  border-top-left-radius: 7px;
+  outline: none;
+}
+
+.Add-input+button{
+  font-size: 42.8px;
+  border: none;
+  background-color:white;
+  border-top-right-radius: 7px;
+}
+.Add-input:focus{
+  border:none;
+  
+}
+.Add-input+button:hover{
+  background-color:rgb(175, 165, 165);
+}
+.addInputDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-value{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.itemDIv{
+  width: 330px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: auto;
+  
+}
+
+.editbtnDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.deleteBtn{
+  background-color: rgb(11, 53, 80);
+  border: none;
+}
+.editBtn{
+  background-color: rgb(11, 53, 80);
+  border: none;
+}
+.editBtn > i{
+  font-size: 20px;
+  color: rgb(18, 155, 182);
+  
+}
+.deleteBtn > i{
+  font-size: 22px;
+  color: rgb(199, 34, 34);
+  display: none;
+}
+.itemDIv:hover .deleteBtn > i{
+  display: block;
+}
+
+.itemsMainDiv{
+  height: 300px;
+}
+
+.editDeleteDiv{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.editDeleteDiv>p{
+  color: white;
+}

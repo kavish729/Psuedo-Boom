@@ -1,0 +1,45 @@
+.select_option{
+    font-size: 20px;
+    padding: 2px;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 40px;
+
+  }
+
+  .lightcountry_div{
+    background-color: #1ad6a7;
+    width: 500px;
+    margin: auto;
+    padding: 10px 10px 15px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .darkcountry_div{
+    background-color: #434746;
+    width: 500px;
+    margin: auto;
+    padding: 10px 10px 15px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .country_div>div>input{
+    width: 300px;
+    font-size: 21px;
+    padding: 2px 0px 2px 10px;
+  }
+  .country_div> div>button{
+    font-size: 22px;
+    height: 41px;
+   padding-top: 2px;
+
+  }

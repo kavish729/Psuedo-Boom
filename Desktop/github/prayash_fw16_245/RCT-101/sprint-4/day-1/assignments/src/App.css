@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: rgb(145, 145, 221);
+  padding-top: 20px;
+}
+
+.city_details{
+  margin-top: 30px;
+}
+
+.darkApp{
+  text-align: center;
+  background-color: rgb(27, 27, 29);
+  padding-top: 20px;
+  color: white;
+}
+.darkbutton{
+  font-size: 24px;
+  font-weight: 500;
+}
+.lightinputdiv{
+  background-color:#1ad6a7;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+}
+.darkinputdiv{
+  background-color:#434746;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+}
+form{
+  display: flex; 
+  flex-direction: column;
+  gap: 10px;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content:center;
+  align-items:center;
+  gap: 5px;
+}
+form > div > label{
+  font-size: 19px;
+  font-weight: 500;
+}

@@ -1,0 +1,226 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "AMI",
+        "color": "Pink",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 20 Earring",
+        "price": 399,
+        "rating": 4.3,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14799210/2021/9/25/7c28cf48-6d23-455b-9d07-c5be26d994051632536691110AMISetOf20Gold-PlatedWhiteContemporaryStudsDropEarrings1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Zaveri Pearls",
+        "color": "golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Studed Choker Jewellery Set",
+        "price": 412,
+        "rating": 412,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12883616/2021/10/27/bae9798d-7980-4b30-8512-6977173e38bc1635332259431ZaveriPearlsGold-PlatedWhiteKundanPearlsStudedMultistrandCho1.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Carlton London",
+        "color": "Pink",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "CZ Studded Geometric Studs",
+        "price": 279,
+        "rating": 4.6,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9436935/2020/11/4/a73f0e91-28b8-4622-8743-f0d3cc26b2c91604496287743CarltonLondonSilver-TonedRhodium-PlatedCZStuddedGeometricStu1.jpg"
+      },
+      {
+        "id": 4,
+        "title": "DressBerry",
+        "color": "Golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Geometri Drop Earringd",
+        "price": 499,
+        "rating": 4.3,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10117791/2019/8/26/bf212852-7c38-4fb9-9e64-d82441ba472a1566816946418-DressBerry-Gold-Toned-Textured-Geometric-Drop-Earrings-53515-1.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Saraf RS Jewellery",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 20 Earring",
+        "price": 1199,
+        "rating": 4.7,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14924460/2021/7/24/0ed8032d-3434-4fb2-97df-1395e33bb3601627102684650RoseGoldPlatedUniqueDesignADstuddedDesignerChokerNecklacewit1.jpg"
+      },
+      {
+        "id": 6,
+        "title": "AMI",
+        "color": "Pink",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Gold Plated Jewellery Set",
+        "price": 799,
+        "rating": 4.5,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16254576/2022/1/13/4ad37156-996a-464e-89bb-0c1926230dcb1642012835937AMIRoseGold-TonedWhiteRoseGoldPlatedStuddedJewellerySet1.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Rubans",
+        "color": "Pink",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Floral Drop Earring",
+        "price": 1359,
+        "rating": 4.65,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10481692/2019/8/27/9950b38b-12a4-4609-87b7-aa9c9e5f692f1566893312072-Rubans-Gold-Toned--White-Floral-Drop-Earrings-22715668933113-4.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Saraf RS Jewellery",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Rose Gold-Plated & AD Studded",
+        "price": 1199,
+        "rating": 4.3,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15838782/2021/10/18/faeca855-e9fe-408b-8d8d-ca048c194a2e1634561175171SarafRSJewelleryRoseGold-PlatedPinkADStuddedHandcraftedJewel1.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Zaveri Pearls",
+        "color": "Golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Jewellery Set",
+        "price": 379,
+        "rating": 4.1,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9013413/2021/11/22/5d3728d2-e51e-40f6-bef4-530cdf320c851637560700784-Zaveri-Pearls-Traditional-Stone-Studded--Pearls-Jewellery-Se-1.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Rubans",
+        "color": "Golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Gold-Plated Jewellery Set",
+        "price": 910,
+        "rating": 4.2,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10662148/2021/10/1/f3b2fcd1-db8b-42c2-9675-7fab6ac89f521633079886585-Rubans-Women-Gold-Plated--White-Pearl-Embellished-Jewellery--1.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Zaveri Pearls",
+        "color": "Blue",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Gold-Plated Jewellery Set",
+        "price": 599,
+        "rating": 4.1,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15550098/2021/9/30/87e41755-7ddd-459a-84e1-77692924cb171632982091250ZaveriPearlsGold-TonedGreenAlloyGold-PlatedKundan-StuddedJew11.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Carlton London",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "CZ Studded Floral Studs",
+        "price": 799,
+        "rating": 4.7,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9437077/2019/6/20/99ab6dd9-2747-4fc5-9b5f-bd8b1a6677bc1561026582709-Carlton-London-Silver-Toned-Rhodium-Plated-CZ-Studded-Floral-1.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Arrabi",
+        "color": "Silver",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Oxidised Ghungaroo Jewellery",
+        "price": 698,
+        "rating": 3.9,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16492034/2021/12/13/d66eba4d-78ec-48f9-8fcd-15c503e6eed31639375401805ArrabiOxidisedMetallic-TonedGhungarooJewellerySet1.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Zaveri Pearls",
+        "color": "Golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Crescent Shaped Chandbalis",
+        "price": 899,
+        "rating": 4,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9013423/2021/11/22/4de3f6ac-c212-416c-8f57-0ab03d6c7a521637573705422ZaveriPearlsGold-TonedPearlKundanStuddedCrescentShapedChandb1.jpg"
+      },
+      {
+        "id": 15,
+        "title": "YouBella",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 2 Gold-Plated Chain",
+        "price": 389,
+        "rating": 4.2,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/5/15/74ef45d3-2acd-4a8b-a3a2-dc099955d0551621056130389-1.jpg"
+      },
+      {
+        "id": 16,
+        "title": "PANASH",
+        "color": "Silver",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Silver-Plated Oxidised Jhumkas",
+        "price": 349,
+        "rating": 4.4,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/1/18/a562d5c6-be6c-4871-a064-a4c0c05aa8df1547817077168-1.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Saraf RS Jewellery",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Rose Gold-Plated Jewellery Set",
+        "price": 1499,
+        "rating": 4.1,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15477924/2021/9/16/e359eada-a4ff-4aa8-afcc-113c7f9a10b11631785651730SarafRSJewelleryRoseGold-PlatedWhiteAD-StuddedHandcraftedJew1.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Priyaasi",
+        "color": "Silver",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 20 Earring",
+        "price": 1249,
+        "rating": 4,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10590658/2019/12/6/608a2d2d-b074-437a-883a-0a7bd087802a1575637859763-Priyaasi-Rose-Gold-Plated-CZ--American-Diamond-Studded-Handc-1.jpg"
+      },
+      {
+        "id": 19,
+        "title": "Priyaasi",
+        "color": "Black",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 20 Earring",
+        "price": 689,
+        "rating": 4.4,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12361312/2020/12/2/112a2f53-f140-418e-aca8-ae14591449501606897356910-Priyaasi-Oxidised-Silver-Plated-German-Silver-Jewellery-Set--1.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Zaveri Pearls",
+        "color": "Golden",
+        "gender": "female",
+        "category": "jwellary",
+        "description": "Set Of 20 Earring",
+        "price": 659,
+        "rating": 4.2,
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/2/9/782c271a-e74f-4214-9d02-a98f9663a3a01612855837792-1.jpg"
+      }
+
+    ]
+
+}

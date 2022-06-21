@@ -1,0 +1,264 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container > div{
+  margin-top: 10px;
+}
+
+.container > div> div{
+  display: flex;
+  border: 2px solid rgb(73, 66, 66);
+  /* justify-content:center; */
+  height: 260px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  
+}
+.lastOrderDIv{
+  background-color: rgb(60, 53, 53);
+}
+.middleDiv{
+  background-color: rgb(68, 163, 187);
+}
+
+.container > div> div:last-child{
+  height:40px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.container > div> div:last-child > button{
+  height:40px;
+  font-size: 19px;
+  background-color: #e9f4ec;
+  color: #3bc25d;
+  font-weight: 700;
+  border: none;
+}
+
+.container > div> div >div > img{
+  width: 100%;
+  height: 100%;
+}
+.container > div> div >div:last-child{
+  height:100%;
+  background-color: rgb(65, 57, 57);
+  margin: auto;
+  justify-content:center;
+}
+.container > div> div >div:last-child>p{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price > p{
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.price > ul{
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.cat{
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.name{
+  font-weight: 700;
+  font-size: 26px;
+  color:#63fe09;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.reviewDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+}
+
+.pay{
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* button */
+
+.btnDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDiv>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.6I-JRNI7ZAIX56cIEly_fgHaEo&pid=Api&P=0&w=301&h=188");
+  padding-bottom: 10px;
+  width: 420px;
+  height: 113px;
+  border-radius: 10px;
+}
+
+.filterDiv{
+  margin-top: 10px;
+}
+.filterDiv > div > button{
+  background-color: blue;
+  color: white;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 19px;
+  height:40px;
+  border-radius: 10px;
+}
+
+.btnDiv>div>.payColor>button{
+  background-color: blue;
+  color: white;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 19px;
+  height:40px;
+  border-radius: 10px;
+
+}
+
+.btnDiv>div>.ratingColor>button{
+  background-color: rgb(227, 14, 220);
+  color: white;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 19px;
+  height:40px;
+  border-radius: 10px;
+}
+
+.btnDiv>div>p{
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.payDIv{
+  margin-top: 10px;
+}
+
+.mainHeaderDIv{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.formDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP._j0oUM7N5FtrXiDeqcXc3QHaEK&pid=Api&P=0&w=277&h=156");
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-radius: 10px;
+  width: 330px;
+
+}
+
+.formDiv>form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formDiv>form>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.formDiv>form>div>input{
+  font-size: 21px;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  
+}
+.formDiv>form>div>label{
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.formDiv>form>div>.submitBtn{
+  background-color: blue;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  padding-left: 4px;
+  width: 120px;
+  margin-top: 10px;
+
+}
+
+.formDiv p{
+  font-size: 25px;
+  color: yellow;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-decoration: underline;
+
+}
+
+.light{
+  background-color: rgb(59, 121, 135);
+  top: 0;
+  margin-top: 0px;
+}
+
+.dark{
+  background-color: black;
+}
+.btnDiv>.darkMode{
+  color: blue;
+  background-color:white;
+}

@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.formContainer > form {
+  display: grid;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 158, 184);
+  border-radius: 20px;
+  height: 700px;
+}
+.formContainer > form > div {
+  display: grid;
+  color: rgb(233, 237, 237);
+  margin-top: -10px;
+}
+.formContainer > form > div >input{
+  padding-left: 10px;
+}
+.formContainer > form > .showPas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.submitForm {
+  width: 150px;
+  margin: auto;
+  height: 30px;
+ 
+}
+.formContainer > form > div>label {
+  font-size: 22px;
+}
+.input_large>input{
+  height: 30px;
+  border-radius: 5px;
+}

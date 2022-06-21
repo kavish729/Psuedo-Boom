@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+
+body{
+  background-image: url("https://www.itl.cat/pngfile/big/99-992191_wallpaper-linear-gradient-green-blue-spring-green-dark.jpg");
+  background-repeat: no-repeat;
+  width:100%;
+
+}
+
+.main_pagi{
+  height: 250px;
+}

@@ -1,0 +1,58 @@
+
+
+.main>div{
+  
+  display: grid;
+  grid-template-columns: repeat(3,31%);
+  gap: 15px;
+  margin: auto;
+  justify-content:center;
+  margin-top: 15px;
+
+}
+.main>div>div{
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  box-sizing: border-box;
+  gap: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(233, 228, 228);
+   width: 450px;
+  height: 230px;
+
+}
+body{
+  background-color: grey;
+  font-family: sans-serif;
+}
+.rating{
+  background-color: rgb(8, 144, 203);
+  width: 50px;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.main>.buttons{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.main>.buttons>button{
+  font-size: 22px;
+  background-color: rgb(60, 82, 228);
+  color: white;
+  height: 37px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.main>.buttons>button:hover{
+  background-color: rgb(21, 47, 219);
+  color: rgb(241, 228, 228);
+}

@@ -1,0 +1,54 @@
+.container>button{
+ 
+  margin-top: 10px;
+  color: white;
+  font-family: sans-serif;
+  width: 120px;
+  height: 23px;
+  font-size: 16px;
+  border-radius: 18px;
+  
+}
+
+.container{
+  display:grid;
+  width: 300px;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 20px;
+}
+
+.container>button:nth-child(1){
+  background-color: #1583ae;
+}
+
+.container>button:nth-child(2){
+  background-color: #79a3a7;
+}
+
+.container>button:nth-child(3){
+  background-color:  #f97c13;
+}
+
+.container>button:nth-child(4){
+  background-color:  
+  #88181f;
+}
+.container>button:nth-child(5){
+  background-color:  
+  #7ba547;
+}
+
+.container>button:nth-child(6){
+  background-color:  
+  #4f4c83;
+}
+
+.container>button:nth-child(7){
+  background-color:  
+  #b8396d;
+}
+
+.container>button:nth-child(8){
+  background-color:  
+  #a49169;
+}

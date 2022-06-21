@@ -1,0 +1,242 @@
+.App {
+  display: flex;
+  width: 750px;
+  background-color: transparent;
+  opacity: 0.9;
+  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+}
+.App > div:first-child {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > div .realInput {
+  width: 420px;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-right: 10px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+}
+.App > div .addItemsBtns {
+  font-size: 42px;
+  width: 80px;
+  height: 78px;
+  border-radius: 15px;
+  font-weight: 500;
+  border: none;
+}
+
+.inputItems {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 60px;
+}
+.TodoList {
+  border-radius: 15px;
+  margin-top: -30px;
+}
+.TodoList > div {
+  margin-top: 10px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  height: 50px;
+}
+
+.TodoList > div > div > p {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 25px;
+
+}
+.TodoList > div > div:last-child {
+  display: flex;
+  gap: 10px;
+}
+.TodoList > div:hover div > .delelteBtn > i {
+  display: block;
+  
+}
+.TodoList > div > div:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+.TodoList > div > div > input {
+  width: 40px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.TodoList > div > div > .delelteBtn {
+  border: none;
+  margin-right: 20px;
+  background: white;
+ 
+}
+.TodoList > div > div > .editBtn{
+  background: white;
+  border: none;
+}
+.TodoList > div > div > .editBtn > i{
+  font-size: 25px;
+  color: blue;
+}
+.TodoList > div > div > .delelteBtn > i {
+  font-size: 27px;
+  display: none;
+  color: red;
+
+  
+}
+body {
+  background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headingName {
+  color: rgb(250, 243, 250);
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(18, 224, 138);
+}
+
+.completedDiv > .completedBtn{
+  background-color: blue;
+  font-size: 22px;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.completedDiv > div{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  border-radius: 7px;
+  height: 50px;
+  margin-top: 10px;
+}
+.completedDiv > div>p{
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.completedDiv > div > .delelteBtn{
+  border: none;
+  margin-right: 20px;
+  background: white;
+}
+.completedDiv > div > .delelteBtn > i{
+  font-size: 27px;
+  display: none;
+  color: red;
+}
+.completedDiv > div:hover  > .delelteBtn> i{
+  display: block;
+}
+/* Media query */
+
+/* @media (min-width: 100px) and (max-width: 400px) {
+  .App {
+    display: flex;
+    width: 300px;
+    background-color: transparent;
+    opacity: 0.9;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .inputItems {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+  }
+  .App > div .realInput {
+    width: 215px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 5px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+  }
+  .App > div button {
+    font-size: 23px;
+    width: 40px;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: 500;
+    border: none;
+  }
+  .headingName {
+    color: rgb(253, 250, 255);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(15, 224, 172);
+  }
+  .TodoList {
+    border-radius: 15px;
+  }
+  .TodoList > div {
+    margin-top: 10px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    height: 43px;
+  }
+
+  .TodoList > div > p {
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  .TodoList > div > input {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  body {
+    background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+} */

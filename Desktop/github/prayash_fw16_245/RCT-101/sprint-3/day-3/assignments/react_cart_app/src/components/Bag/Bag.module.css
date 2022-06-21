@@ -1,0 +1,82 @@
+.products_list{
+  
+    display:flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.products_list > div{
+    border: 2px solid black;
+}
+.leftSide{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.totalItems{
+    color: white;
+    font-size: 22px;
+    background-color: rgb(13, 93, 232);
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.singleLeftItem{
+    width:560px;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding:4px 18px 4px 0px;
+}
+
+.singleLeftItem > div>div > img{
+    width:130px;
+
+   
+}
+.singleLeftItem > div>div:nth-child(1){
+   
+}
+.singleLeftItem > div>div:nth-child(2){
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.singleLeftItem > div>div:nth-child(3){
+    padding-top: 8px;
+}
+.title{
+    font-weight: 600;
+}
+.categ{
+    font-size: 17px;
+}
+
+.singleItemleftDiv{
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+}
+
+.imageAndtitle{
+    display: flex;
+    gap:20px;
+}
+
+.removeBtn{
+    border:none;
+    font-size: 25px;
+    background-color: white;
+}
+
+.removeBtn:hover{
+    background-color: red;
+    border-radius: 50%;
+    padding:1px 7px 1px 7px;
+    color:white;
+}

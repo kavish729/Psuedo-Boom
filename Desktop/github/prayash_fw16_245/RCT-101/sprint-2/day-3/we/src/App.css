@@ -1,0 +1,95 @@
+.main-div{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.table_div{
+  margin-top: 10px;
+  width: 70%;
+  margin:auto;
+}
+.tableDiv{
+  margin-top: 15px;
+}
+
+.formInput{
+  width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  background-color: #1197d1;
+  justify-content:center;
+  align-items:center;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.check-box-input{
+  height: 30px;
+}
+
+
+.formInput > div{
+  width:450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formItemsDiv{
+  margin-top: 19px;
+}
+
+.formInput > p{
+  width: 100%;
+  font-size: 39px;
+  color: yellow;
+  padding: 20px;
+  background-color: rgb(20, 88, 35);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+textarea{
+  height: 80px;
+  width: 260px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.formInput > div > input{
+  font-size: 19px;
+  padding: 6px;
+  padding-left: 10px;
+  width: 270px;
+  border-radius: 5px;
+}
+.formInput > div > label{
+  color: white;
+  font-size: 20px;
+}
+
+body{
+  background-color: rgb(13, 32, 63);
+}
+
+.submitDIv{
+  width: 160px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+select{
+  width: 190px;
+  height: 40px;
+  font-size: 22px;
+}
+
+
+.salaryDiv{
+  padding-left: 5px;
+  border-radius: 5px;
+  font-size: 600;
+}

@@ -1,0 +1,8 @@
+.counter {
+  /* TODO */
+  display: flex;
+  gap: 10px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+}

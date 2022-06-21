@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App{
+
+  display: flex;
+  width: 750px;
+  background-color: rgb(193, 189, 189);
+  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 25px;
+}
+.App>div:first-child{
+ 
+ display: flex;
+ width: 500px;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.App> div input{
+ width: 420px;
+ font-size: 30px;
+ padding-left: 20px;
+ margin-right: 10px;
+ height: 70px;
+ border-radius: 15px;
+ border: none;
+
+}
+.App> div button{
+  font-size: 42px;
+  width: 80px;
+  height: 78px;
+  border-radius: 15px;
+  font-weight: 500;
+  border: none;
+}
+
+.inputItems{
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 90px;
+}
+.TodoList{
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.TodoList > div{
+  margin-top: 10px;
+  width: 500px;
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  height: 60px;
+}
+
+.TodoList > div> p{
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.TodoList > div> img{
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}

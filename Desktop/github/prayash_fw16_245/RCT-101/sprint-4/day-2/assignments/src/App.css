@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color:rgb(18, 18, 51);
+}
+.todo_div{
+  margin-top: 30px;
+}
+.input-div{
+ width: 370px;
+ margin: auto;
+ display: flex;
+}
+.items_div{
+  width: 400px;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+ margin-top: 10px;
+  flex-direction: column;
+}
+
+.input-div > input{
+  width: 350px;
+  font-size: 20px;
+  padding: 8px;
+
+}
+.input-div > button{
+  font-size: 21px;
+  padding: 8px;
+}
+.list-items{
+ width: 360px;
+ display: flex;
+flex-direction: column;
+ justify-content:center;
+ margin: auto;
+ border: 2px solid blue;
+ margin-top: 10px;
+
+}
+.list-items >div>  li{
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px;
+
+}
+.list-items >div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-div{
+  background-color: teal;
+  width: 500px;
+  margin: auto;
+  padding-top: 10px;
+  margin-top: 20px;
+  color: white;
+  padding-bottom:10px;
+  border-radius: 10px;
+}
+
+.btn{
+  
+  width: 210px;
+  padding: 84px 0px 84px 0px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 27px;
+  border:none;
+}
+.btn_div{
+  display: flex;
+  gap: 30px;
+  margin : auto;
+  align-items: center;
+  justify-content:center;
+  
+}
+
+
+.start_btn{
+  background-color: rgb(69, 69, 206);
+  color: white;
+}
+.start_btn:hover{
+  background-color: rgb(57, 57, 202);
+  color: rgb(219, 212, 212);
+}
+.stop_btn{
+  background-color: rgb(37, 182, 193);
+  color: white;
+}
+.stop_btn:hover{
+  background-color: rgb(23, 148, 157);
+  color: rgb(231, 221, 221);
+}
+.reset_btn{
+  background-color: rgb(240, 53, 215);
+  color: white;
+}
+.reset_btn:hover{
+  background-color: rgb(193, 17, 170);
+  color: rgb(226, 217, 217);
+}
+
+.time_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  border: 2px solid blue;
+  position: fixed;
+  
+}
+.main_div{
+  margin-top: 100px;
+
+}
+.timer_div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 90px;
+  color: white;
+}
+
+h1{
+  color: rgb(15, 220, 235);
+  font-size: 60px;
+  font-weight: 500;
+}

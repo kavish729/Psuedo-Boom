@@ -1,0 +1,50 @@
+.container{
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #ffa500;
+  justify-content:space-around;
+}
+.container>div>h1{
+  font-size: 40px;
+}
+.container>.left_content{
+  width: 200px;
+  display: grid;
+
+}
+
+.right_content>img{
+  margin-top: 30px;
+   width: 60px;
+   height: 60px;
+}
+.right_content{
+  height : 92%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.left_content>div{
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 160px;
+  text-align: center;
+
+  font-size: 23px;
+}
+
+.apple>.container{
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #dcd8d0;
+  justify-content:space-around;
+}

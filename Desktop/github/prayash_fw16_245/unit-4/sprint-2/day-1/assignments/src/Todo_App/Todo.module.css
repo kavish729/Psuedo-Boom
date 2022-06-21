@@ -1,0 +1,100 @@
+.lineThrough {
+  text-decoration: line-through;
+  color: yellow;
+}
+.noLineThrough {
+  color: blue;
+}
+.todoItem > button {
+  margin: 3px;
+  color: white;
+  background-color: rgb(63, 58, 58);
+  font-size: 22px;
+  border-radius: 10px;
+  height: 55px;
+}
+.todoItem > input {
+  width: 300px;
+  background-color: rgb(63, 58, 58);
+  color: white;
+  height: 22px;
+  padding: 15px;
+  font-size: 23px;
+  border-radius: 10px;
+}
+.deleteTodo {
+  text-align: center;
+  display: flex;
+
+  width: 390px;
+  margin: auto;
+
+  background-color: rgb(60, 60, 184);
+  margin-bottom: 10px;
+  justify-content: space-between;
+
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.todoItem > button {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.todoItem > button:hover {
+  background-color: 
+  rgb(59, 72, 211);
+  color: white;
+}
+
+.deleteTodo > button > i {
+  font-size: 21px;
+
+}
+
+.deleteTodo {
+  font-size: 23px;
+}
+
+.todoItem {
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+.deleteTodo > button {
+ 
+  margin-right: 10px;
+  background-color: rgb(60, 60, 184);
+  border: none;
+}
+.deleteTodo:first-child {
+  color: white;
+ 
+}
+.deleteTodo {
+  padding-left: 10px;
+  color: white;
+  text-align: center;
+}
+.deleteTodo > button:hover {
+  background-color: rgb(246, 34, 34);
+  color: rgb(8, 8, 8);
+  border: none;
+  width: 35px;
+  margin-right: 0;
+}
+
+.todoBtn > button {
+  background-color: rgb(51, 51, 59);
+  color: white;
+  font-size: 18px;
+  margin-left: 3px;
+
+}
+
+.todoBtn > button:hover{
+  background-color: rgb(37, 37, 226);
+  color: white;
+}

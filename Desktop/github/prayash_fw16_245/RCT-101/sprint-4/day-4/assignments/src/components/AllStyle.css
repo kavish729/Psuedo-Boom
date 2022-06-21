@@ -1,0 +1,123 @@
+.navbar{
+    display:flex;
+    background-color: blue;
+    padding-left:40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.navbar>div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.navbar>div>i{
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.single_prod{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    width:500px;
+    border: 2px solid blue;
+    justify-content: space-around;
+}
+
+.single_prod >div:nth-child(2) > img{
+    width:150px;
+}
+
+.main_container{
+
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap:10px;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_prod >div:nth-child(1){
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-self: space-between;
+    align-items: left;
+
+    
+}
+
+.main_container_cart{
+    width: 90%;
+    margin: auto;
+    margin-top:20px;
+}
+
+.items{
+ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border: 2px solid blue;
+    justify-content: space-around;
+}
+
+.items>div>img{
+    width:150px;
+}
+.items>div{
+    display:flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items>div:nth-child(1){
+    height: 100px;
+}
+
+.total_gty{
+    display:flex;
+    flex-direction: column;
+     height: 500px;
+     border:2px solid blue;
+     justify-content: space-between;
+}
+
+.totle_price{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 260px;
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-container{
+    display:flex;
+   
+    
+}
+
+.totalDiv{
+    width: 700px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    border: 2px solid blue;
+}

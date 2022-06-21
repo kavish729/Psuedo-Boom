@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+.App > div{
+  width: 380px;
+  background-color: rgb(33, 29, 29);
+  margin: auto;
+  height:250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+body{
+  background-image: url("https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZCUyMHNjYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.heading{
+  color: rgb(244, 209, 11);
+  font-size: 45px;
+}
+
+.App > div > div{
+  display: flex;
+}
+
+.App > div > div>button{
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  height: 40px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.App > div > div>button:hover{
+  background-color:rgb(30, 30, 210);
+  color: rgb(205, 192, 192);
+}

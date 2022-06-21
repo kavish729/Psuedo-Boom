@@ -1,0 +1,19 @@
+.dark{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 500;
+}
+.light{
+    color: white;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
