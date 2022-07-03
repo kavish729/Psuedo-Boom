@@ -13,7 +13,7 @@ const SingleProduct = ({item}) => {
       <img width="100%" height="290" src={item.image} alt="" />
       <h3>{item.title}</h3>
       <h4>₹ {item.price}</h4>
-      <h4>RATINGS :: {item.rating}</h4>
+      <h4>RATINGS : {item.rating}</h4>
       </Link>
       <ButtonAdd onClick={handleAddToCart}>Add to Cart</ButtonAdd>
       <br />
