@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Box } from "@chakra-ui/react";
+import Mainroutes from "./Routes/Mainroutes";
 
 function App() {
   return (
-   <div>
-    
-   </div>
+    <Box>
+      <Mainroutes />
+    </Box>
+
   );
 }
 
