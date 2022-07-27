@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Kavish branch </h1>
+      <h1>Prayash branch</h1>
     </div>
   );
 }
