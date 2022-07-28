@@ -3,7 +3,7 @@ import * as types from './actionTypes';
 
 export const getData = () => (dispatch) => {
     dispatch({type:types.REQUEST_BOOKS})
-    axios.get("http://localhost:8080/books")
+    axios.get("https://hackathondata.herokuapp.com/books")
     .then((r) => {
         dispatch({type:types.SUCCESS_BOOKS,payload:r.data})
     })

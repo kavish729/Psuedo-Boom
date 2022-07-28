@@ -21,7 +21,7 @@ const Mainroutes = () => {
         <Route path="/checkout" element={<Checkoutpage/>}/>
         
        </Routes>
-       <Footer/>
+  
     </Box>
   )
 }
