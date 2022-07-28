@@ -4,7 +4,7 @@ import Mainroutes from "./Routes/Mainroutes";
 
 function App() {
   return (
-    <Box>
+    <Box bg={"#cccc"}>
       <Mainroutes />
     </Box>
 
