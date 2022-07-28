@@ -4,7 +4,7 @@ import Mainroutes from "./Routes/Mainroutes";
 
 function App() {
   return (
-    <Box bg={"#cccc"}>
+    <Box bg={"gray.200"} minHeight={"100vh"}>
       <Mainroutes />
     </Box>
 

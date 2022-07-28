@@ -2,13 +2,10 @@ import React from "react";
 import {
   Box,
   Flex,
-
   HStack,
   Link,
   IconButton,
-
   Menu,
-
   MenuList,
   MenuItem,
   MenuDivider,
@@ -19,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { FiShoppingCart } from "react-icons/fi";
-import { AiOutlineUsergroupDelete } from 'react-icons/ai';
+import { AiOutlineUsergroupDelete } from "react-icons/ai";
 const Links = ["Dashboard", "Projects", "Team"];
 
 const NavLink = ({ children }) => (
@@ -42,8 +39,8 @@ const Navbar = () => {
 
   return (
     <>
-      <Box bg={"#2c2c2c"}  px={"2rem"} py={"0.7rem"} color="#e5dede">
-        <Flex h={16} alignItems={"center"}  justifyContent={"space-between"}>
+      <Box bg={"#2c2c2c"} px={"2rem"} py={"0.7rem"} color="#e5dede">
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             bg={"#8f8a8a"}
             size={"md"}
@@ -84,9 +81,9 @@ const Navbar = () => {
             </Menu>
           </Flex>
           <Flex gap={"40px"}>
-          <Icon as={FiShoppingCart} h={7} w={7} alignSelf={'center'} />
-       <AiOutlineUsergroupDelete style={{fontSize:"30px"}}/>
-       </Flex>
+            <Icon as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
+            <AiOutlineUsergroupDelete style={{ fontSize: "30px" }} />
+          </Flex>
         </Flex>
 
         {isOpen ? (
@@ -99,8 +96,6 @@ const Navbar = () => {
           </Box>
         ) : null}
       </Box>
-
-   
     </>
   );
 };
