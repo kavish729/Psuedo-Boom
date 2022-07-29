@@ -61,6 +61,16 @@ const SingleHomeData = ({ item }) => {
     }, 10);
   }, []);
 
+
+  // Cart functionality
+
+  const handleCart = (item) => {
+      
+  }
+
+
+
+
   return (
     <Flex p={50} w="full" alignItems="center" justifyContent="center">
       <Box
@@ -123,7 +133,7 @@ const SingleHomeData = ({ item }) => {
               fontSize={"1.2em"}
             >
               <chakra.a href={"#"} display={"flex"}>
-                <Icon as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
+                <Icon onClick={()=>handleCart(item)} as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
               </chakra.a>
             </Tooltip>
           </Flex>

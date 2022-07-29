@@ -17,9 +17,10 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { FiShoppingCart } from "react-icons/fi";
 import { AiOutlineUsergroupDelete } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 const Links = ["Dashboard", "Projects", "Team"];
 
-const NavLink = ({ children }) => (
+const NavLinks = ({ children }) => (
   <Link
     px={2}
     py={1}
@@ -66,7 +67,7 @@ const Navbar = () => {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLinks key={link}>{link}</NavLinks>
               ))}
             </HStack>
           </HStack>
@@ -81,7 +82,8 @@ const Navbar = () => {
             </Menu>
           </Flex>
           <Flex gap={"40px"}>
-            <Icon as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
+            <NavLink to="/cart">  <Icon as={FiShoppingCart} h={7} w={7} alignSelf={"center"} /></NavLink>
+          
             <AiOutlineUsergroupDelete style={{ fontSize: "30px" }} />
           </Flex>
         </Flex>
@@ -90,7 +92,7 @@ const Navbar = () => {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLinks key={link}>{link}</NavLinks>
               ))}
             </Stack>
           </Box>
