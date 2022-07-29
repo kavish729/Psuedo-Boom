@@ -70,6 +70,16 @@ const SingleHomeData = ({ item }) => {
     }, 10);
   }, []);
 
+
+  // Cart functionality
+
+  const handleCart = (item) => {
+      
+  }
+
+
+
+
   return (
     <Flex p={50} w="full" alignItems="center" justifyContent="center">
       <Box
@@ -128,6 +138,7 @@ const SingleHomeData = ({ item }) => {
               color={"gray.800"}
               fontSize={"1.2em"}
             >
+
               <Box display={"flex"}>
                 <Icon
                   onClick={() => handleadd(item)}
@@ -137,6 +148,7 @@ const SingleHomeData = ({ item }) => {
                   alignSelf={"center"}
                 />
               </Box>
+
             </Tooltip>
           </Flex>
 
