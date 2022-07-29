@@ -4,6 +4,7 @@ const initialState = {
   books: [],
   isLoading: false,
   isError: false,
+  cart:[]
 };
 
 export const appReducer = (state = initialState, action) => {
@@ -27,6 +28,13 @@ export const appReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         isError: true,
+      };
+      
+    }
+
+    case types.SUCCESS_CART: {
+      return {
+        ...state,cart:[...state.cart,payload]
       };
     }
 

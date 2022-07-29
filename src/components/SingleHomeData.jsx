@@ -15,6 +15,8 @@ import {
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 import { FiShoppingCart } from "react-icons/fi";
 import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { cartdata } from "../Redux/Appreducer/action";
 
 const data = {
   isNew: true,
@@ -53,6 +55,13 @@ function Rating({ rating, numReviews }) {
 }
 
 const SingleHomeData = ({ item }) => {
+  const dispatch = useDispatch();
+
+  const handleadd = (item) => {
+    dispatch(cartdata(item));
+  };
+  // console.log(cartitem);
+
   const [disTime, setDisTime] = useState(item.time);
   const timerRef = useRef(null);
   useEffect(() => {
@@ -78,15 +87,12 @@ const SingleHomeData = ({ item }) => {
         maxW="sm"
         borderWidth="1px"
         rounded="lg"
-        boxShadow= "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"
-        transition={
-          "1.5s"
-        } 
+        boxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"
+        transition={"1.5s"}
         _hover={{
-          bg:"#ede8e8",
+          bg: "#ede8e8",
           transform: "scale(0.97)",
-          boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px"
-          
+          boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",
         }}
       >
         {data.isNew && (
@@ -132,28 +138,33 @@ const SingleHomeData = ({ item }) => {
               color={"gray.800"}
               fontSize={"1.2em"}
             >
-              <chakra.a href={"#"} display={"flex"}>
-                <Icon onClick={()=>handleCart(item)} as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
-              </chakra.a>
+
+              <Box display={"flex"}>
+                <Icon
+                  onClick={() => handleadd(item)}
+                  as={FiShoppingCart}
+                  h={7}
+                  w={7}
+                  alignSelf={"center"}
+                />
+              </Box>
+
             </Tooltip>
           </Flex>
 
           <Box
             display={"flex"}
-            justifyContent={disTime>0 ? "space-between" : "center"}
+            justifyContent={disTime > 0 ? "space-between" : "center"}
             alignItems="center"
-            flexDirection={disTime>0 ? "row" : "columns"}
-            
+            flexDirection={disTime > 0 ? "row" : "columns"}
           >
-       
-            <Box  fontSize="2xl" color={useColorModeValue("gray.800", "white")} >
-              
+            <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
               <Box
-                textDecoration={ disTime>0 ? "line-through" : "none"}
+                textDecoration={disTime > 0 ? "line-through" : "none"}
                 as="span"
                 color={"gray.600"}
-                fontSize={disTime>0 ? "20px" : "23px"}
-                fontWeight={disTime>0 ? "500":"700"}
+                fontSize={disTime > 0 ? "20px" : "23px"}
+                fontWeight={disTime > 0 ? "500" : "700"}
               >
                 ₹ {item.mrp}
               </Box>
@@ -165,15 +176,13 @@ const SingleHomeData = ({ item }) => {
                   fontSize={"22px"}
                   fontWeight={"600"}
                   color={"gray.600"}
-                 
                 >
                   In offer &nbsp; ₹{item.price}
                 </Box>{" "}
-               
               </Box>
             )}
           </Box>
-          
+
           {disTime > 0 ? (
             <Box display={"grid"} align={"center"}>
               <Text fontSize={"20px"} color="#f10bc3" fontWeight={"800"}>
