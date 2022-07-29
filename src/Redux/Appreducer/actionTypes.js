@@ -1,3 +1,5 @@
 export const REQUEST_BOOKS = "REQUEST_BOOKS"
 export const SUCCESS_BOOKS = "SUCCESS_BOOKS"
 export const FAILURE_BOOKS = "FAILURE_BOOKS"
+
+export const SUCCESS_CART = "SUCCESS_CART"

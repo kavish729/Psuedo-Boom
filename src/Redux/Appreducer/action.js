@@ -12,3 +12,6 @@ export const getData = () => (dispatch) => {
     })
 } 
 
+export const cartdata =(payload)=>(dispatch)=>{
+dispatch({type:types.SUCCESS_CART,payload})
+}
