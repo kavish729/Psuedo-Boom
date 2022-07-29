@@ -56,11 +56,12 @@ function Rating({ rating, numReviews }) {
 
 const SingleHomeData = ({ item }) => {
   const dispatch = useDispatch();
-
+ 
   const handleadd = (item) => {
     dispatch(cartdata(item));
+  
   };
-  // console.log(cartitem);
+  
 
   const [disTime, setDisTime] = useState(item.time);
   const timerRef = useRef(null);
@@ -68,14 +69,10 @@ const SingleHomeData = ({ item }) => {
     timerRef.current = setInterval(() => {
       setDisTime((prev) => prev - 10);
     }, 10);
-  }, []);
+  }, [timerRef]);
 
 
   // Cart functionality
-
-  const handleCart = (item) => {
-      
-  }
 
 
 

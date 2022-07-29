@@ -1,10 +1,11 @@
+import { loadData, saveData } from "../utils/LocalData";
 import * as types from "./actionTypes";
 
 const initialState = {
   books: [],
   isLoading: false,
   isError: false,
-  cart:[]
+  cart: loadData("carts") || [],
 };
 
 export const appReducer = (state = initialState, action) => {
@@ -29,12 +30,14 @@ export const appReducer = (state = initialState, action) => {
         isLoading: false,
         isError: true,
       };
-      
     }
 
     case types.SUCCESS_CART: {
+      const newData = { ...state, cart: [...state.cart, payload] };
+       saveData("carts",newData.cart)
       return {
-        ...state,cart:[...state.cart,payload]
+        ...state,
+        cart: [...state.cart, payload],
       };
     }
 
