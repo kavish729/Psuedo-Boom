@@ -1,0 +1,16 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Nrupul",
+      "age": 42,
+      "gender": "Male",
+      "image":"https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg",
+      "medicines": [
+        { "med_id": "100", "medicine": "Paracetamol", "quntity": "7" },
+        { "med_id": "101", "medicine": "Crocine", "quntity": "3" },
+        { "med_id": "102", "medicine": "Dolo 450", "quntity": "5" }
+      ]
+    }
+  ]
+}
